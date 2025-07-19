@@ -1,39 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Nested Table Example</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-
-<h3>Example : Nested</h3>
-
-<table border="1" cellpadding="5" bgcolor="grey">
+  <table border="2" align="center" style="text-align: center;">
     <tr>
-        <th rowspan="2">CI</th>
-        <th rowspan="2">All Genders</th>
-        <th colspan="2">By Gender</th>
+      <th rowspan="3">Day </th>
+      <th colspan="3" align="center">Seminar</th>
+      
     </tr>
     <tr>
-        <td colspan="2">
-            <table border="1" cellpadding="5">
-                <tr>
-                    <th>Males</th>
-                    <th>Females</th>
-                </tr>
-                <tr>
-                    <td>9215604</td>
-                    <td>4512358</td>
-                </tr>
-            </table>
-        </td>
+      <th colspan="2">Schedule</th>
+      <th rowspan="2" align="center"> Topic</th>
+      
     </tr>
     <tr>
-        <td><b>Rural</b></td>
-        <td>6521458</td>
-        <td>4215389</td>
-        <td>4152348</td>
+      <th>begin</th>
+      <th> end</th>
     </tr>
-</table>
+    <tr>
+      <td rowspan="2">Monday</td>
+      <td rowspan="2" bgcolor="lightyellow">8:00 a.m</td>
+      <td rowspan="2" bgcolor="lightblue">5:00 p.m</td>
+      <td> Introduction to xml</td>
+      
+    </tr>
+    <tr>
+      <td>Validity:DTD and relax NG</td>
+    </tr>
+    <tr> 
+      <td rowspan="3">Tuesday</td>
+      <td bgcolor="lightyellow">8:00 a.m</td>
+       <td bgcolor="lightyellow">11:00 a.m</td>
+      <td rowspan="2">Xpath</td>
+    </tr>
+    <tr>
+      <td bgcolor="lightyellow">11:00 a.m</td>
+      <td bgcolor="skyblue">2:00 p.m</td>
+    </tr>
+    <tr>
+      <td bgcolor="lightgreen">2:00 P.m</td>
+      <td bgcolor="lightblue">5:00 p.m</td>
+      <td style="padding-bottom: 1px;"> XSL Transformation</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td bgcolor="lightyellow">8:00 a.m</td>
+      <td bgcolor="skyblue">12:00 p.m</td>
+      <td>XSL formatting objects</td>
+    </tr>
 
+
+    
+
+  </table>
 </body>
 </html>
