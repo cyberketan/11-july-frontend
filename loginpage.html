@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Page</title>
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .login-box {
+      width: 300px;
+      margin: 100px auto;
+      padding: 30px;
+      background-color: white;
+      box-shadow: 0px 0px 10px 0px gray;
+      border-radius: 8px;
+    }
+
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .login-box input[type="submit"] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .login-box input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
 
-<h2 align="center">Login Page</h2>
-
-<form action="#" method="post">
-    <table border="1" cellpadding="10" cellspacing="0" align="center" bgcolor="grey">
-        <tr>
-            <td><label for="username">Username:</label></td>
-            <td><input type="text" id="username" name="username" required></td>
-        </tr>
-        <tr>
-            <td><label for="password">Password:</label></td>
-            <td><input type="password" id="password" name="password" required></td>
-        </tr>
-        <tr>
-            <td colspan="2" style="text-align:center;">
-                <input type="submit" value="Login">
-                <input type="reset" value="Clear">
-            </td>
-        </tr>
-    </table>
-</form>
+  <div class="login-box">
+    <h2>Login</h2>
+    <form action="login.php" method="POST">
+      <input type="text" name="username" placeholder="Enter Username" required>
+      <input type="password" name="password" placeholder="Enter Password" required>
+      <input type="submit" value="Login">
+    </form>
+  </div>
 
 </body>
 </html>
