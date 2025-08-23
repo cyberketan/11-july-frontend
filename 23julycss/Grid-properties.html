@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+             grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+     grid-template-columns: 1fr 3fr;
+     gap: 5px;
+     background-color: #2196F3;
+     padding: 5px;
+        }
+        .container > div.header {
+            grid-area: header ;
+            text-align: center;
+        }
+        .container > div.menu{
+            grid-area: menu;
+        }
+        .container > div.content{
+            grid-area: content;
+        }
+        .container > div.footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+   <h1>
+    Grid Properties
+   </h1>
+   <p>The Grid Layout Module offers a grid-based layout system, with rows and columns.</p>
+   
+<p>The Grid Layout Module makes it easy to design complex and responsive web pages without using floats and positioning:</p>
+<div class="container">
+<div class="header"><h2>My Header</h2></div>
+<div class="menu"><a href="">LINK1</a> ><br> <a href="#">LINK2</a> <br>
+<a href="#">LINK3</a></div>
+<div class="content"><h1>Lorem Ipsum</h1>
+<p>
+    Lorem ipsum odor amet, consectetuer adipiscing elit. Ridiculus sit nisl laoreet facilisis aliquet. Potenti dignissim litora eget montes rhoncus sapien neque urna. Cursus libero sapien integer magnis ligula lobortis quam ut.
+</p></div>
+<div class="footer"><h4>My Footer</h4></div>
+    
+
+</div>
+</body>
+</html>
