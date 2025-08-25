@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            color: blueviolet;
+  height: 100px;
+  border: 2px solid black;
+  box-sizing:content-box;
+  padding: 20px;
+  background-color: cadetblue;
+  margin: 50px;
+        }
+        .box2{
+            width: 500px;
+            height: 300px;
+            border: 2px solid black;
+            box-sizing: border-box;
+            padding: 20px;
+            color: blue;
+            background-color: burlywood;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1> Box-sizing : content-box</h1>
+    <div class="box">In this the width & height applies only to the content area. </div>
+
+<h2>Box-sizing: border-box</h2>
+    <div class="box2">
+        In this, padding and border are included within width & height.
+
+
+    </div>
+</body>
+</html>
