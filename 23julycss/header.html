@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ 
     <style>
         .header{
-            background-color: grey;
+            background-color: #ff6600;
             padding: 20px;
             overflow: hidden;
-
-                             
         }
+       
+        
         .header a{
             padding: 10px;
             float: left;
@@ -26,6 +28,127 @@
 
         }
        
+       .search-bar{
+        background-color: gray;
+        cursor: pointer;
+        color: white;
+        padding: 8px 12px;
+        display: flex;
+        float: right; 
+       }
+       .table-box{
+       height: 25 0px;
+       width: 1260px;
+       border: 2px solid black;
+      margin-top: 40px;
+      display: flex;
+      gap: 50px;
+      align-items: center;
+
+       
+       }
+
+       .boxT{
+        height: 190px;
+        width: 200px;
+       
+        margin: 50px;
+        
+        
+        
+       }
+       .imageT{
+        height: 190px;
+        width: 180px;
+        transition: transform 1s ease-in-out;
+      animation: transformEffect 25s infinite;
+        
+        
+    }
+    .productbox{
+       
+       
+        background-color: ;
+        height: 35px;
+        width: 176px;
+        margin-top: 4px;
+        margin-right: 0px;
+         align-content: center;
+        
+    }
+        .productname{
+            font-size: small;
+            color: black;
+           
+            
+        }
+         .table-box2{
+       height: 25 0px;
+       width: 1260px;
+       
+      margin-right: 10px;
+      display: flex;
+      gap: 50px;
+      align-items: center;
+      
+       }
+  
+        .boxT2{
+        height: 190px;
+        width: 200px;
+        border: solid black;
+        margin: 50px;
+    
+        
+        }
+         .table-box .boxT:hover,.table-box2 .boxT2:hover{
+
+            opacity: 0.5;
+             transform: scale(1.1);
+            cursor: pointer;
+        }
+        .h4{
+            font-size: 150%;
+        }
+        .box3{
+            height: 25 0px;
+       width: 1260px;
+      
+      margin-right: 10px;
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      
+
+        }
+        .boxT3{
+             height: 190px;
+        width: 180px;
+        border: solid black;
+        cursor: pointer;
+      
+
+         
+        
+        
+        }
+        
+       
+        
+        
+        
+        
+
+        
+       
+        
+
+       
+
+        
+        
+       
+      
 
 
         
@@ -39,10 +162,102 @@
             <a href="#">About</a>
             <a href="#">Contact</a>
             <a href="#">Login</a>
-
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-bar">
+            <button><i class="fas fa-search"></i></button>
         </div>
     </div>
+    <h2 align="center">OUR CATEGORIES</h2>
+   
+    <div class="table-box">
+        <div class="boxT"> <img src="https://www.bulkvapewholesale.co.uk/cdn/shop/files/bulk_vape_wholesale_3_360x.png?v=1704575313" alt="Product image" class="imageT">
+            <div class="productbox">
+                <div class="productname" align="center">POD KITS</div>
+            </div>
+            </div>
+        
+
+        <div class="boxT"> <img src="https://www.bulkvapewholesale.co.uk/cdn/shop/files/pod_kits_vape_wholesale_360x.png?v=1704576074" class="imageT">
+            <div class="productbox">
+                <div class="productname" align="center">VAPE KITS</div>
+            </div>
+        </div>
+          
+          
+        <div class="boxT"> <img src="https://www.bulkvapewholesale.co.uk/cdn/shop/files/vape_juice_wholesale_360x.png?v=1704577178" class="imageT">
+         <div class="productbox">
+            <div class="productname" align="center">E-LIQUIDS</div>
+         </div>
+        </div>
+        <div class="boxT"> <img src="https://www.bulkvapewholesale.co.uk/cdn/shop/files/vape_kits_wholesale_bulk_360x.png?v=1704576097" class="imageT">
+         <div class="productbox">
+            <div class="productname" align="center">NIC SALTS</div>
+         </div>
+        </div>
+        
+
+    </div>
+    <div class="table-box2">
+        <div class="boxT2"> <img src="https://www.bulkvapewholesale.co.uk/cdn/shop/files/nic_salt_vape_wholesale_360x.png?v=1704577203" class="imageT">
+        <div class="productbox">
+            <div class="productname" align="center">NICO PODS</div>
+
+        </div>
+        </div>
+        <div class="boxT2"> <img src="https://www.bulkvapewholesale.co.uk/cdn/shop/files/pods_vape_wholesale_360x.png?v=1704577473" class="imageT">
+        <div class="productbox">
+            <div class="productname" align="center">PODS</div>
+        </div>
+        </div>
+        <div class="boxT2"> <img src="https://www.bulkvapewholesale.co.uk/cdn/shop/files/Pre-filled_pods_360x.png?v=1704584127" class="imageT">
+        <div class="productbox">
+            <div class="productname" align="center">PRE-FILLED</div>
+        </div>
+        </div>
+        <div class="boxT2"> <img src="https://www.bulkvapewholesale.co.uk/cdn/shop/files/pod_system_360x.png?v=1704584577" class="imageT">
+        <div class="productbox">
+            <div class="productname" align="center">PRE-SYSTEM</div>
+        </div>
+        </div>
+    </div>
+    
+    <h4 align="center" class="h4">TRENDING NIC SALTS</h4>
+    <p align="center">FIND OUT TOP SELLER THIS WEEK</p>
+
+    <div class="box3">
+        <div class="boxT3">
+            <img src="https://www.thestylesalad.in/cdn/shop/products/personalisedluxuryperfumebottle.jpg?v=1675661106" class="imageT">
+        </div>
+        <div class="boxT3">
+            <img src="https://m.media-amazon.com/images/I/81DX0j8CzvL._UF350,350_QL80_.jpg" class="imageT">
+        </div>
+        <div class="boxT3">
+            <img src="https://aafiyaperfumes.com/cdn/shop/files/671D72E5-2D1C-4201-9BFD-253542B2F7AD.jpg?v=1747812750&width=1445" class="imageT">
+            </div>
+        <div class="boxT3">
+            <img src="https://aramaic.in/cdn/shop/files/pink_notes_copy_eac5f33c-743f-4e99-b5a8-c44addb23d81.jpg?v=1718186726" class="imageT">
+        </div>
+        <div class="boxT3">
+            <img src="https://store.banlabs.com/cdn/shop/files/IMG_SIG_BLUE_EDP_30ML_1206_2023_7Cropped.webp?v=1696076757&width=1946" class="imageT">
+        </div>
+        <div class="boxT3">
+            <img src="https://www.frenchessence.com/cdn/shop/files/6_bc6a3b04-f64d-4edc-9392-0aff7daf55a6.jpg?v=1705747926" class="imageT">
+        </div>
+        
+        
+    </div>
+
+   <footer class="footer">
+    abcdettu
+   </footer>
+
+   
+
+   
+    
   
+
 
   
     

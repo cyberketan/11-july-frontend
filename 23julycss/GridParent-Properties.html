@@ -11,9 +11,9 @@
             background: violet;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-template-areas:  "header header header 20px"
+            grid-template-areas:  "header header header header"
                                   "main main . sidebar"
-                                   "footer footer footer 25px";
+                                   "footer footer footer footer";
          
             
         }
@@ -38,13 +38,14 @@
          .iteam-D{
             grid-area: footer;
          }
+        
 
     </style>
 </head>
 <body>
     <div class="grid-parent">
-        <div class="iteam-a" >HOME </div>
-        <div class=""></div>
+        <div class="iteam-a" >header</div>
+        <div class="">empty</div>
         <div class="iteam-b">main</div>
         <div class="iteam-c">sidebar</div>
         <div class="iteam-D">Footers</div>
